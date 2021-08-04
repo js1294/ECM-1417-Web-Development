@@ -1,0 +1,67 @@
+.maingrid {
+    position: absolute;
+    display:block;
+    top: 100px;
+    left: 200px;
+    width: 75%;
+  }
+
+.textgrid{
+    position: absolute;
+    display:block;
+    top: 80px;
+    left: 0px;
+    width: 30%;
+  }
+
+.map{
+    position: absolute;
+    width: 65%;
+    max-width: 567px;
+    max-height: 500px;
+    border: 3px solid black;
+    box-shadow:  1.5px 1.5px grey;
+    top: 100%;
+    left: 30%;
+  }
+
+h2{
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+  }
+  
+hr{
+    background-color: black;
+    height:2px;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+  }
+
+input{
+    width: 150px;
+    padding: 8px;
+    margin: 1px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    background-color: white;
+  }
+
+input[type=text]{
+  background: transparent;
+}
+
+input[type=submit]{
+    width: 170px;
+    border-radius: 5px;
+  }
+
+input[type=reset]{
+  width: 170px;
+  border-radius: 5px;
+}
