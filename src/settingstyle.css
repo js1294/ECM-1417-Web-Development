@@ -1,0 +1,81 @@
+.maingrid {
+    position: absolute;
+    display:block;
+    top: 100px;
+    left: 200px;
+    width: 75%;
+  }
+
+h2{
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+  }
+  
+hr{
+    background-color: black;
+    height:2px;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+  }
+
+  input{
+    position: absolute;
+    padding: 8px;
+    margin: 2px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    background-color: white;
+  }
+
+.windowtext{
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+
+.distancetext{
+  position: absolute;
+  top: 48%;
+  left: 28%;
+}
+
+.window{
+  position: absolute;
+  padding: 8px;
+  margin: 2px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  background-color: white;
+  background: transparent;
+  width: 520px;
+  left: 34%;
+  top: 40%;
+}
+
+.distance{
+  background: transparent;
+  width: 500px;
+  left: 34%;
+  top: 48%;
+}
+
+.report{
+  text-align: center;
+  width: 200px;
+  left: 20%;
+  top: 60%;
+  border-radius: 5px;
+}
+
+.cancel{
+  text-align: center;
+  width: 200px;
+  left: 69%;
+  top: 60%;
+  border-radius: 5px;
+}
